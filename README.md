@@ -1,6 +1,6 @@
 # Portfolio Page
 
-### This is the source code to my personal webpage hosted at www.UnfinishedIdeas.com
+### This is the source code to my personal webpage hosted at www.Unfinishedideas.com
 
 ## Installation
 1. Clone this repository https://github.com/unfinishedideas/portfolioPage.git

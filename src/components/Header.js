@@ -12,7 +12,7 @@ const Header = () => {
             </div>
            
             <div className="topNav">
-                <NavLink title="Home"/>
+                <NavLink title="Home" currentTab={true}/>
                 <NavLink title="Gallery"/>
                 <NavLink title="Music"/>
                 <NavLink title="Contact"/>
