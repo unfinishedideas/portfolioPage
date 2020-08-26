@@ -1,33 +1,25 @@
 # Portfolio Page
 
-### This is the source code to my personal webpage hosted at UnfinishedIdeas.com
-
-It was built with React and uses node-SASS for styling
-
-<br/>
+### This is the source code to my personal webpage hosted at www.UnfinishedIdeas.com
 
 ## Installation
-- clone this repository
-- in the terminal navigate to where you cloned it and type npm install
-- then yarn start and it should open in a browser
-
-<br/>
+1. Clone this repository https://github.com/unfinishedideas/portfolioPage.git
+2. In the terminal navigate to where you cloned it and type npm install
+3. Then yarn start and it should open in a browser
 
 ## Notes
 This is still in it's infancy so please don't judge me too harshly... yet!
 
-<br />  
+## Technology
+This project uses the React framework and node-SASS for styling and is written primarily in Javascript.
 
-As always: thanks for stopping by.  
-The Management
-
----
 ## License
 Copyright (c) 2020 Peter Wells  
 Licensed under the GPL license.
 
-
-
+---
+As always: thank you for stopping by.  
+*The Management*
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
