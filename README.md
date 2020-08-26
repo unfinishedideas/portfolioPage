@@ -1,4 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Page
+
+### This is the source code to my personal webpage hosted at UnfinishedIdeas.com
+
+It was built with React and uses node-SASS for styling
+
+<br/>
+
+## Installation
+- clone this repository
+- in the terminal navigate to where you cloned it and type npm install
+- then yarn start and it should open in a browser
+
+<br/>
+
+## Notes
+This is still in it's infancy so please don't judge me too harshly... yet!
+
+<br />  
+
+As always: thanks for stopping by.  
+The Management
+
+---
+## License
+Copyright (c) 2020 Peter Wells  
+Licensed under the GPL license.
+
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -65,4 +96,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
