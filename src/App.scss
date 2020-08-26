@@ -4,34 +4,38 @@
 
 .headerWrapper {
   display: flex;
-  width: 100%;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
   color: white;
-  background-color: pink
+  // background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0 0 24px 40px;
 }
 
 .topNav {
-  // justify-content: space-between;
   // background-color: black;
-  background-color: blue;
+  margin-left: 24px;
 }
 
 .topNavLink {
   color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 28px;
 }
 
 .heroTextBox {
-  background-color: black;
-  padding: 0 0 1em 0;
+  color: white;
 }
 
 .heroText {
-  margin: 0;
-  font-size: 5em;
+  font-size: 56px;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .subtitleText {
-  margin: 0;
+  font-size: 18px;
 }
 
 // .App-logo {
