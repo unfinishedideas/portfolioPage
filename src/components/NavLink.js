@@ -41,7 +41,7 @@ const styles =
         // borderStyle: 'solid'
     },
     currentTab: {
-        // borderColor: 'purple',
+        borderColor: 'purple',
         borderBottomWidth: '2px',
         borderBottomStyle: 'solid'
     },
@@ -53,6 +53,6 @@ const styles =
         fontSize: 20
     },
     btnFocus: {
-        backgroundColor: 'red'
+        backgroundColor: 'rgb(100,0,100)'
     },
 }
