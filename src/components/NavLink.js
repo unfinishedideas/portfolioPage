@@ -32,17 +32,21 @@ export default NavLink;
 const styles = 
 {
     navWrapper: {
-        borderColor: 'red',
-        borderWidth: '2px',
-        borderStyle: 'solid'
+        // borderColor: 'red',
+        // borderWidth: '2px',
+        // borderStyle: 'solid'
     },
     currentTab: {
-        borderColor: 'purple',
-        borderWidth: '2px',
-        borderStyle: 'solid'
+        // borderColor: 'purple',
+        borderBottomWidth: '2px',
+        borderBottomStyle: 'solid'
     },
     btn: {
-
+        fontFamily: "courier",
+        backgroundColor: 'rgba(0,0,0,0)',
+        color: 'white',
+        borderStyle: 'none',
+        fontSize: 20
     },
     btnFocus: {
         backgroundColor: 'red'
