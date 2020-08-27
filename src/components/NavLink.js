@@ -1,18 +1,22 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
+import { ScreenContext } from '../context';
 
 const NavLink = (props) => {
+    const { currentScreen, setCurrentScreen } = useContext(ScreenContext);
     const [isFocused, setIsFocused] = useState(false);
     const [currentTab, setCurrentTab] = useState(false)
 
     const navigate = () => {
-        console.log('hiii');
+        setCurrentScreen(props.title);
     }
 
     useEffect(() => {
-        if(props.currentTab === true) {
+        if(currentScreen === props.title) {
             setCurrentTab(true);
+        } else {
+            setCurrentTab(false);
         }
-    },[])
+    }, [currentScreen])
 
     return(
         <div 
