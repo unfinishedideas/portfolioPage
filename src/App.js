@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 //context
 import { ScreenContext } from './context';
@@ -13,8 +13,7 @@ import Contact from './screens/Contact';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -46,11 +45,6 @@ function App() {
               <Home/>
             </Route>
           </Switch>
-
-          <Link to={'/home'}>home</Link>
-          <Link to={'/gallery'}>gallery</Link>
-          <Link to={'/projects'}>projects</Link>
-          <Link to={'/contact'}>contact</Link>
 
         </div>  
       </ScreenContext.Provider>

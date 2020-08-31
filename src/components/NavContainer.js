@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 // my components
 import NavLink from './NavLink';
 

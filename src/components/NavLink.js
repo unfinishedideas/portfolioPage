@@ -12,12 +12,12 @@ const NavLink = (props) => {
     }
 
     useEffect(() => {
-        if(currentScreen === props.title) {
+        if (currentScreen === props.title) {
             setCurrentTab(true);
         } else {
             setCurrentTab(false);
         }
-    }, [currentScreen])
+    }, [currentScreen, props.title])
 
     return(
         <div 
