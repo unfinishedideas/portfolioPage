@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useContext} from 'react';
 import { ScreenContext } from '../context';
+import { Link } from 'react-router-dom';
 
 const NavLink = (props) => {
     const { currentScreen, setCurrentScreen } = useContext(ScreenContext);
@@ -24,9 +25,9 @@ const NavLink = (props) => {
             onMouseEnter={() => {setIsFocused(true)}}
             onMouseLeave={() => {setIsFocused(false)}}
         >
-            <button onClick={navigate} style={isFocused ? {...styles.btn ,...styles.btnFocus} : styles.btn}>
+            <Link to={props.link} onClick={navigate} style={isFocused ? {...styles.btn ,...styles.btnFocus} : styles.btn}>
                 {props.title}
-            </button>
+            </Link>
         </div>
     )
 }
@@ -50,7 +51,9 @@ const styles =
         backgroundColor: 'rgba(0,0,0,0)',
         color: 'white',
         borderStyle: 'none',
-        fontSize: 20
+        fontSize: 20,
+        textDecoration: 'none',
+        marginRight: 12
     },
     btnFocus: {
         backgroundColor: 'rgb(100,0,100)'

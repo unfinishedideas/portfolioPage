@@ -5,10 +5,10 @@ import NavLink from './NavLink';
 const NavContainer = () => {
     return(
         <div style={styles.navContainerStyle}>
-            <NavLink title="Home" />
-            <NavLink title="Gallery" />
-            <NavLink title="Music" />
-            <NavLink title="Contact" />
+            <NavLink title="Home" link="" />
+            <NavLink title="Gallery" link="gallery" />
+            <NavLink title="Music" link="music" />
+            <NavLink title="Contact" link="contact" />
         </div>
     )
 }
