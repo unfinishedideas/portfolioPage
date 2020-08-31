@@ -4,6 +4,11 @@ import './App.scss';
 import { ScreenContext } from './context';
 // components
 import Header from './components/Header';
+// screens
+import Home from './screens/Home';
+import Gallery from './screens/Gallery';
+import Music from './screens/Music';
+import Contact from './screens/Contact';
 // router
 import {
   BrowserRouter as Router,
@@ -26,16 +31,19 @@ function App() {
           
           <Switch>
             <Route path="/gallery">
-              <p style={{color: 'white'}}>gallery</p>
+              <Gallery/>
             </Route>
+            
             <Route path="/music">
-              <p style={{color: 'white'}}>music</p>
+              <Music/>
             </Route>
+            
             <Route path="/contact">
-              <p style={{color: 'white'}}>contact</p>
+              <Contact/>
             </Route>
+            
             <Route path="/">
-              <p style={{color: 'white'}}>home</p>
+              <Home/>
             </Route>
           </Switch>
 

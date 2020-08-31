@@ -25,9 +25,9 @@ const NavLink = (props) => {
             onMouseEnter={() => {setIsFocused(true)}}
             onMouseLeave={() => {setIsFocused(false)}}
         >
-            <Link to={props.link} onClick={navigate} style={isFocused ? {...styles.btn ,...styles.btnFocus} : styles.btn}>
-                {props.title}
-            </Link>
+                <Link to={props.link} onClick={navigate} style={isFocused ? {...styles.btn ,...styles.btnFocus} : styles.btn}>
+                    {props.title}
+                </Link>
         </div>
     )
 }
@@ -40,6 +40,7 @@ const styles =
         // borderColor: 'red',
         // borderWidth: '2px',
         // borderStyle: 'solid'
+        marginRight: 12
     },
     currentTab: {
         borderColor: 'purple',
@@ -53,7 +54,6 @@ const styles =
         borderStyle: 'none',
         fontSize: 20,
         textDecoration: 'none',
-        marginRight: 12
     },
     btnFocus: {
         backgroundColor: 'rgb(100,0,100)'
