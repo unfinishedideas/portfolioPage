@@ -10,7 +10,6 @@ const Header = () => {
                 <h1 className="heroText">Unfinished Ideas</h1>
                 {/* <h2 className="subtitleText">no idea is ever finished, only abandoned</h2> */}
             </div>
-           
             <NavContainer/>
 
         </div>
