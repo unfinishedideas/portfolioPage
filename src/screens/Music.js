@@ -4,7 +4,7 @@ import '../App.scss';
 const Music = () => {
     return(
         <div className="screen">
-            <p style={{color: 'white'}}>Music</p>
+            <h2>Music</h2>
         </div>
     )
 }

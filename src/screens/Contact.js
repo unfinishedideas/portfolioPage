@@ -4,7 +4,8 @@ import '../App.scss';
 const Contact = () => {
     return(
         <div className="screen">
-            <p style={{color: 'white'}}>Contact</p>
+            <h2>Contact</h2>
+
         </div>
     )
 }

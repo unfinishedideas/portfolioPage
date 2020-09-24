@@ -4,7 +4,7 @@ import '../App.scss';
 const Gallery = () => {
     return(
         <div className="screen">
-            <p style={{color: 'white'}}>Gallery</p>
+            <h2>Gallery</h2>
         </div>
     )
 }
